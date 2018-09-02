@@ -3,16 +3,15 @@
 <head>
   <meta charset="utf-8">
   
-  <title>标签 | Vanora_Zhou&#39;s Blog</title>
+  <title>Tag: test1 | Vanora_Zhou&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="标签">
-<meta property="og:url" content="http://kaijun.rocks/tags/index.html">
+<meta property="og:title" content="Vanora_Zhou&#39;s Blog">
+<meta property="og:url" content="http://kaijun.rocks/tags/test1/index.html">
 <meta property="og:site_name" content="Vanora_Zhou&#39;s Blog">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2018-09-02T15:02:26.086Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="标签">
+<meta name="twitter:title" content="Vanora_Zhou&#39;s Blog">
   
     <link rel="alternate" href="/atom.xml" title="Vanora_Zhou&#39;s Blog" type="application/atom+xml">
   
@@ -69,101 +68,40 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="tags-" class="article article-type-tags" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/tags/index.html" class="article-date">
-  <time datetime="2018-09-02T15:02:26.089Z" itemprop="datePublished">2018-09-02</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
+        <section id="main">
+
   
-    <h1 class="article-title" itemprop="name">
-      标签
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2018" class="archive-year">2018</a>
+        </div>
+         <span class="archive-year-post">1 post  this year</span>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/2018/09/02/hello-world/" class="archive-article-date">
+  <time datetime="2018-09-02T15:03:41.864Z" itemprop="datePublished">09-02</time>
+</a>
+      
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2018/09/02/hello-world/">Hello World</a>
     </h1>
   
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- Table of Contents -->
-        
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://kaijun.rocks/tags/index.html" data-id="cjll0ot1r0001q8r7evhb1kt0" class="article-share-link">分享</a>
-      
-      
-      
-    </footer>
+    </header>
   </div>
-  
-    
- <script src="/jquery/jquery.min.js"></script>
-  <div id="random_posts">
-    <h2>推荐文章</h2>
-    <div class="random_posts_ul">
-      <script>
-          var random_count =4
-          var site = {BASE_URI:'/'};
-          function load_random_posts(obj) {
-              var arr=site.posts;
-              if (!obj) return;
-              // var count = $(obj).attr('data-count') || 6;
-              for (var i, tmp, n = arr.length; n; i = Math.floor(Math.random() * n), tmp = arr[--n], arr[n] = arr[i], arr[i] = tmp);
-              arr = arr.slice(0, random_count);
-              var html = '<ul>';
-            
-              for(var j=0;j<arr.length;j++){
-                var item=arr[j];
-                html += '<li><strong>' + 
-                item.date + ':&nbsp;&nbsp;<a href="' + (site.BASE_URI+item.uri) + '">' + 
-                (item.title || item.uri) + '</a></strong>';
-                if(item.excerpt){
-                  html +='<div class="post-excerpt">'+item.excerpt+'</div>';
-                }
-                html +='</li>';
-                
-              }
-              $(obj).html(html + '</ul>');
-          }
-          $('.random_posts_ul').each(function () {
-              var c = this;
-              if (!site.posts || !site.posts.length){
-                  $.getJSON(site.BASE_URI + 'js/posts.js',function(json){site.posts = json;load_random_posts(c)});
-              } 
-               else{
-                load_random_posts(c);
-              }
-          });
-      </script>
-    </div>
-  </div>
-
-    
-  
 </article>
- 
-     
-  <div class="comments" id="comments">
-    
-     
-       
-      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
-    
-       
-      
-      
-           <div id="gitment_comments"></div>
-    
-  </div>
- 
+  
+  
+    </div></section>
   
 
 </section>
